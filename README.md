@@ -3,6 +3,8 @@ WEDA-FALL - Wrist Elderly Daily Activity and Fall Dataset. A fall-related Datase
 
 The device used to compile this dataset is the [Fitbit Sense](https://www.fitbit.com/global/be/products/smartwatches/sense). This dataset was compiled using the [Fitbit Gather Data Mechanism](https://github.com/joaojtmarques/FitbitGatherDataMechanism). One can use this tool to gather more data and expand this dataset.
 
+Any questions you may have, feel free to contact joaojtmarques@tecnico.ulisboa.pt.
+
 ## Description of the Datasets’ movements
 
 This dataset has compiled with two types of movements. Falls and ADLs (Activities of Daily Life).
