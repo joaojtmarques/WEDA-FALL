@@ -111,7 +111,7 @@ The activities each Elder individual performed is detailed in Table 5. Note that
 ## Dataset Acquisition Conditions
 
 
-First and foremost, it is important to denote that every fall movement was performed in a mattress to avoid the risk of injury. This work’s dataset is accompanied with [Videos](https://drive.google.com/drive/folders/1jB3W_sd4-aXkVRsRIdlSLDNdfaXizZ4a?usp=sharing) detailing the exact conditions of each movement to solve this significant drawback in the literature.
+First and foremost, it is important to denote that every fall movement was performed in a mattress to avoid the risk of injury. This work’s dataset is accompanied with [Videos](https://drive.google.com/drive/folders/1jB3W_sd4-aXkVRsRIdlSLDNdfaXizZ4a?usp=sharing) detailing the exact conditions of each movement.
 
 Younger Participants were asked to repeat each activity three times. Fall F08 was asked to be repeated 4 times, where the first two the volunteer would fall towards the side of the watch, while in the last two he would fall to the opposite side. From YP alone, this dataset totals 350 (14 × 7 × 3 + 14 × 4) fall signals, and 462 (14 × 11 × 3) ADL signals. The number of epetitions each elder was asked to performed varied a lot, based on each volunteer’s mobility, comfort and fatigue. The total EP signals is 157, having on total 619 ADL Signals.
 
