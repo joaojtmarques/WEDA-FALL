@@ -1,5 +1,5 @@
 # WEDA-FALL
-WEDA-FALL - Wrist Elderly Daily Activity and Fall Dataset. A fall-related Dataset captured at 50Hz using a smartwatch on the wrist.
+WEDA-FALL - Wrist Elderly Daily Activity and Fall Dataset. A fall-related Dataset captured at 50Hz using a smartwatch on the wrist, containing Elderly People Data.
 
 The device used to compile this dataset is the [Fitbit Sense](https://www.fitbit.com/global/be/products/smartwatches/sense). This dataset was compiled using the [Fitbit Gather Data Mechanism](https://github.com/joaojtmarques/FitbitGatherDataMechanism). One can use this tool to gather more data and expand this dataset.
 
@@ -117,8 +117,9 @@ Younger Participants were asked to repeat each activity three times. Fall F08 wa
 
 This dataset, that was acquired at 50Hz, also provides 4 more frequencies: 40Hz, 25Hz, 10Hz and 5Hz. These frequencies of data were obtained from the 50Hz frequency data. Both accelerometer, gyroscope and orientation sensor data were gathered in this dataset.
 
-Every filename in the dataset follows the following format: **_‘<user_id>_R<trial_counter>.txt’_**, and is stored in a directory that identifies the movement, whose name is the code of each movement (see Table 1 and 2). The **_<user_id>_** distinguishes each volunteer, even though it does not identify them, since it is an abstract integer. The **_<trial counter>_** is the identifier of the trial of the movement
-since each movement was usually repeated more than once. For instance, the file **_‘‘F07/U02 R03.txt‘_** identifies the third trial of fall number 7 (code F07) of the user with **_<user_ id>_** = 2
+For the frequency of 50Hz, it is also provided de vertical acceleration.  Acceleration was projected on an inertial referential, where the previous z-axis value of acceleration now corresponds to the acceleration projected in the direction of the vertically upward vector, usually aligned with and opposite to the gravity vector.
+
+Every filename in the dataset follows the following format: **_<user_id>_R<trial_counter>_<sensor_type>.csv_**, and is stored in a directory that identifies the movement, whose name is the code of each movement (see Table 1 and 2). The **_<user_id>_** distinguishes each volunteer, even though it does not identify them, since it is an abstract integer. The **_<trial counter>_** is the identifier of the trial of the movement since each movement was usually repeated more than once. For instance, the file **_dataset/50Hz/F07/U02_R03_accel.csv_** identifies the accelerometer readings with 50Hz for the third trial of fall number 7 (code F07) of the user with **_<user_id>_** = 2.
 
 
 
