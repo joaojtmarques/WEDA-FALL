@@ -33,8 +33,8 @@ ADL selection was based on the frequency of real-life activities and similarity 
 | D02       | Jogging                      |
 | D03       | Walking up and downstairs    |
 | D04       | Sitting on a chair, wait a moment, and get up   |
-| D05       |  Sitting a moment, atempt to get up and collapse into a chair         |
-| D06       | Crouching (bending at the knees), tye shoes, and get up               |
+| D05       |  Sitting a moment, attempt to get up and collapse into a chair         |
+| D06       | Crouching (bending at the knees), tie shoes, and get up               |
 | D07       | Stumble while walking        |
 | D08       | Gently jump without falling (trying to reach high object)         |
 | D09       | Hit table with hand          |
@@ -86,14 +86,14 @@ The groups of participants are, therefore, divided in two: Young Participants an
 
 ### Table 4: Overall statistics of Participants
 
-| Number of Males | Number of Females | Max - Min Age | Average Age | Max - Min Height (m) | Average Height (m) | Max - Min Weight (Kg) | Average Weight (Kg) | 
+| Number of Males | Number of Females | Min - Max Age | Average Age | Min - Max Height (m) | Average Height (m) | Min - Max Weight (Kg) | Average Weight (Kg) | 
 | :-----:   | :---: | :---:         | :---:         |:---:      | :---:      | :---:      | :---:      | 
-| 13 | 12 | 20 - 95 |  50.48 |  1.84 - 1.52 |  1,699 |  85 - 52 |  66.3 |
+| 13 | 12 | 20 - 95 |  50.48 |  1.52 - 1.84 |  1,699 | 52 - 85 | 66.3 |
 
 The activities each Elder individual performed is detailed in Table 5. Note that Elder Participants were not asked to perform any Fall nor activities that could harm the individual, since it is impossible to assure their safety in these type of movements.
 
 
-### Table 5: Activities Elder Participants performeds
+### Table 5: Activities Elder Participants performed
 | User id   |Activities performed |
 | :-----:   | :---:     |
 | 21 | D01; D04; D09; D10; D11;|
