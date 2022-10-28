@@ -3,6 +3,8 @@ WEDA-FALL - Wrist Elderly Daily Activity and Fall Dataset. A fall-related Datase
 
 The device used to compile this dataset is the [Fitbit Sense](https://www.fitbit.com/global/be/products/smartwatches/sense). This dataset was compiled using the [Fitbit Gather Data Mechanism](https://github.com/joaojtmarques/FitbitGatherDataMechanism). One can use this tool to gather more data and expand this dataset.
 
+Any questions you may have, feel free to contact joaojtmarques@tecnico.ulisboa.pt.
+
 ## Description of the Datasets’ movements
 
 This dataset has compiled with two types of movements. Falls and ADLs (Activities of Daily Life).
@@ -31,8 +33,8 @@ ADL selection was based on the frequency of real-life activities and similarity 
 | D02       | Jogging                      |
 | D03       | Walking up and downstairs    |
 | D04       | Sitting on a chair, wait a moment, and get up   |
-| D05       |  Sitting a moment, atempt to get up and collapse into a chair         |
-| D06       | Crouching (bending at the knees), tye shoes, and get up               |
+| D05       |  Sitting a moment, attempt to get up and collapse into a chair         |
+| D06       | Crouching (bending at the knees), tie shoes, and get up               |
 | D07       | Stumble while walking        |
 | D08       | Gently jump without falling (trying to reach high object)         |
 | D09       | Hit table with hand          |
@@ -84,14 +86,14 @@ The groups of participants are, therefore, divided in two: Young Participants an
 
 ### Table 4: Overall statistics of Participants
 
-| Number of Males | Number of Females | Max - Min Age | Average Age | Max - Min Height (m) | Average Height (m) | Max - Min Weight (Kg) | Average Weight (Kg) | 
+| Number of Males | Number of Females | Min - Max Age | Average Age | Min - Max Height (m) | Average Height (m) | Min - Max Weight (Kg) | Average Weight (Kg) | 
 | :-----:   | :---: | :---:         | :---:         |:---:      | :---:      | :---:      | :---:      | 
-| 13 | 12 | 20 - 95 |  50.48 |  1.84 - 1.52 |  1,699 |  85 - 52 |  66.3 |
+| 13 | 12 | 20 - 95 |  50.48 |  1.52 - 1.84 |  1,699 | 52 - 85 | 66.3 |
 
 The activities each Elder individual performed is detailed in Table 5. Note that Elder Participants were not asked to perform any Fall nor activities that could harm the individual, since it is impossible to assure their safety in these type of movements.
 
 
-### Table 5: Activities Elder Participants performeds
+### Table 5: Activities Elder Participants performed
 | User id   |Activities performed |
 | :-----:   | :---:     |
 | 21 | D01; D04; D09; D10; D11;|
@@ -111,13 +113,13 @@ The activities each Elder individual performed is detailed in Table 5. Note that
 ## Dataset Acquisition Conditions
 
 
-First and foremost, it is important to denote that every fall movement was performed in a mattress to avoid the risk of injury. This work’s dataset is accompanied with [Videos](https://drive.google.com/drive/folders/1jB3W_sd4-aXkVRsRIdlSLDNdfaXizZ4a?usp=sharing) detailing the exact conditions of each movement to solve this significant drawback in the literature.
+First and foremost, it is important to denote that every fall movement was performed in a mattress to avoid the risk of injury. This work’s dataset is accompanied with [Videos](https://drive.google.com/drive/folders/1jB3W_sd4-aXkVRsRIdlSLDNdfaXizZ4a?usp=sharing) detailing the exact conditions of each movement.
 
 Younger Participants were asked to repeat each activity three times. Fall F08 was asked to be repeated 4 times, where the first two the volunteer would fall towards the side of the watch, while in the last two he would fall to the opposite side. From YP alone, this dataset totals 350 (14 × 7 × 3 + 14 × 4) fall signals, and 462 (14 × 11 × 3) ADL signals. The number of epetitions each elder was asked to performed varied a lot, based on each volunteer’s mobility, comfort and fatigue. The total EP signals is 157, having on total 619 ADL Signals.
 
 This dataset, that was acquired at 50Hz, also provides 4 more frequencies: 40Hz, 25Hz, 10Hz and 5Hz. These frequencies of data were obtained from the 50Hz frequency data. Both accelerometer, gyroscope and orientation sensor data were gathered in this dataset.
 
-For the frequency of 50Hz, it is also provided de vertical acceleration.  Acceleration was projected on an inertial referential, where the previous z-axis value of acceleration now corresponds to the acceleration projected in the direction of the vertically upward vector, usually aligned with and opposite to the gravity vector.
+For the frequency of 50Hz, it is also provided the vertical acceleration.  Acceleration was projected on an inertial referential, where the previous z-axis value of acceleration now corresponds to the acceleration projected in the direction of the vertically upward vector, usually aligned with and opposite to the gravity vector.
 
 It is also provided the begin and end of actual falls, that is, the second where the fall actually starts and ends, correspondent to the 4 phases of fall (pre-fall, impact, body adjustment, and post-fall phases). These timestamps were manually assembled, and they can have mistakes. That information is in [dataset/fall_timestamps.csv](https://github.com/joaojtmarques/WEDA-FALL/blob/main/dataset/fall_timestamps.csv).
 
